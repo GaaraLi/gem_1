@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Gem1::VERSION
   spec.authors       = ["gaara"]
   spec.email         = ["realwol@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{first gem to me}
+  spec.summary       = %q{learn to build a gem}
   spec.homepage      = ""
   spec.license       = "MIT"
 

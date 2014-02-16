@@ -12,11 +12,9 @@ module Gem1
   end
 
   module InstanceMethods
-  	def to_param
-  		"#{id}_#{title}"
+  	def self.to_param(id)
+  		"params_#{id}"
   	end
   end
 
 end
-
-ActiveRecord::Base.send(:include, Gem1)
